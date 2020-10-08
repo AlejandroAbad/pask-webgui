@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@520&family=Open+Sans&display=swap&family=Carter+One&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Bitter', serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: aliceblue;
+
+	background-image: linear-gradient(lightsteelblue, lightsteelblue);
+	background-size: 100% 130px;
+	background-repeat: no-repeat;
+}
+
+.App {
+	background-color: white;
+	min-height: 400px;
+	padding: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AppBody {
+	padding: none;
+	margin-top: 2.2em;
+}
+
+.bg-oscuro {
+	background-color: steelblue;
+}
+.bg-claro {
+	background-color: lightsteelblue;
+}
+.bg-muyclaro {
+	background-color: aliceblue;
+}
+
+.text-oscuro {
+	color: steelblue !important;
+}
+.text-claro {
+	color: lightsteelblue !important;
+}
+.text-muyclaro {
+	color: aliceblue !important;
+}
+
+.text-logo {
+	font-family: 'Carter One', sans-serif;
+}
+
+.text-serif {
+	font-family: 'Bitter', serif;
+}
+
+.text-sans-serif {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.react-icon {
+	padding-bottom: 2px;
+}
+
+.absolute-top-center {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+
+.absolute-bottom-center {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
